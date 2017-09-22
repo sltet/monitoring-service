@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: Monitoring Service
+  jackson:
+    serialization:
+      write-dates-as-timestamps: false
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 50000
+
+merchant:
+  hostname: https://api.test.paysafe.com
+
+emitter:
+  timeout: 180000
+
+scheduler:
+  rate: 5000
