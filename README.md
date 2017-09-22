@@ -1,15 +1,13 @@
 
 ### Monitoring Service
 
-##### Api Documentation
-
 
 ### About
 
 - Spring boot
 - Maven
 
-##### Instructions
+### Instructions
 
 - cd into the project root directory
 - Run command: ```mvn spring-boot:run```
